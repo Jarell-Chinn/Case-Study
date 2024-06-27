@@ -4,27 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compassionate Service Society Nonprofit Website Redesign</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <header>
+    <header class="bg-dark text-white text-center py-3">
         <h1>Compassionate Service Society Nonprofit Website Redesign</h1>
     </header>
     
-    <section id="introduction">
+    <section id="introduction" class="container my-5">
         <h2>Introduction</h2>
         <p>The Compassionate Service Society (CSS) is a non-profit organization based in Southern California, USA. Founded on Buddhist principles, CSS offers a variety of programs that seek to unfold the light of wisdom and compassion innate in all of us. Their initiatives include meditation retreats, integral tai chi classes, vegetarian cooking workshops, as well as the annual World Peace Gathering.</p>
     </section>
     
-    <section id="sneak-peek">
+    <section id="sneak-peek" class="container my-5">
         <h2>Sneak Peek</h2>
-        <div class="image-container">
-            <img src="/assets/images/Before.png" alt="Before Redesign">
-            <img src="/assets/images/after.png" alt="After Redesign">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="assets/images/Before.png" class="img-fluid" alt="Before Redesign">
+            </div>
+            <div class="col-md-6">
+                <img src="assets/images/after.png" class="img-fluid" alt="After Redesign">
+            </div>
         </div>
     </section>
     
-    <section id="user-research">
+    <section id="user-research" class="container my-5">
         <h2>User Research</h2>
         <h3>Proto Persona</h3>
         <div class="persona">
@@ -57,7 +62,7 @@
         </div>
     </section>
     
-    <section id="user-interview-findings">
+    <section id="user-interview-findings" class="container my-5">
         <h2>User Interview Findings</h2>
         <ul>
             <li>Too many different colors and fonts used</li>
@@ -67,32 +72,50 @@
         </ul>
     </section>
     
-    <section id="user-insight">
+    <section id="user-insight" class="container my-5">
         <h2>User Insight</h2>
         <p>Users that are looking for a community to join, seek a straightforward and efficient path to discover programs and navigate websites online.</p>
     </section>
     
-    <section id="problem-statement">
+    <section id="problem-statement" class="container my-5">
         <h2>Problem Statement</h2>
         <p>The Compassionate Service Society website aims to inform visitors about the organization and inspire them to get involved in their initiatives.</p>
         <p>We have observed that the current navigation system is confusing and prevents users from easily accessing information about upcoming events and programs. This hinders their ability to successfully engage with the organization.</p>
         <p><strong>How might we improve the navigation system to make their website easier to locate critical information about programs and events?</strong></p>
     </section>
     
-    <section id="ui-style-guide">
+    <section id="ui-style-guide" class="container my-5">
         <h2>UI Style Guide</h2>
         <p>We created a UI Style Guide with a calm and inspiring tone to match our website, which is why we chose our main colors as the shade ranges within teal and green.</p>
-        <div class="color-showcase">
-            <div class="color-box" style="background-color: #3A9D9F;">Dark Teal #3A9D9F</div>
-            <div class="color-box" style="background-color: #6EBBAD;">Teal #6EBBAD</div>
-            <div class="color-box" style="background-color: #00354C;">Dark Blue #00354C</div>
-            <div class="color-box" style="background-color: #1E352E;">Dark Green #1E352E</div>
-            <div class="color-box" style="background-color: #DAFFF9;">Mint #DAFFF9</div>
-            <div class="color-box" style="background-color: #417162;">Green #417162</div>
+        <div class="row">
+            <div class="col-md-2 color-box" style="background-color: #3A9D9F; color: black;">
+                <p>Dark Teal</p>
+                <p>#3A9D9F</p>
+            </div>
+            <div class="col-md-2 color-box" style="background-color: #6EBBAD; color: black">
+                <p>Teal</p>
+                <p>#6EBBAD</p>
+            </div>
+            <div class="col-md-2 color-box" style="background-color: #00354C;">
+                <p>Dark Blue</p>
+                <p>#00354C</p>
+            </div>
+            <div class="col-md-2 color-box" style="background-color: #1E352E; color: white;">
+                <p>Dark Green</p>
+                <p>#1E352E</p>
+            </div>
+            <div class="col-md-2 color-box" style="background-color: #DAFFF9; color: black;">
+                <p>Mint</p>
+                <p>#DAFFF9</p>
+            </div>
+            <div class="col-md-2 color-box" style="background-color: #417162;">
+                <p>Green</p>
+                <p>#417162</p>
+            </div>
         </div>
     </section>
     
-    <section id="project-background">
+    <section id="project-background" class="container my-5">
         <h2>Project Background</h2>
         <ul>
             <li><strong>Client:</strong> Compassionate Service Society</li>
@@ -101,7 +124,7 @@
         </ul>
     </section>
     
-    <section id="challenges">
+    <section id="challenges" class="container my-5">
         <h2>Challenges</h2>
         <p>Describe the problems or limitations of the previous website.</p>
         <ul>
@@ -113,7 +136,7 @@
         </ul>
     </section>
     
-    <section id="objectives">
+    <section id="objectives" class="container my-5">
         <h2>Objectives</h2>
         <p>Primary Goals:</p>
         <ul>
@@ -125,7 +148,7 @@
         </ul>
     </section>
     
-    <section id="approach">
+    <section id="approach" class="container my-5">
         <h2>Approach</h2>
         <h3>Research and Planning</h3>
         <ul>
@@ -144,7 +167,7 @@
         </ul>
     </section>
     
-    <section id="solution">
+    <section id="solution" class="container my-5">
         <h2>Solution</h2>
         <p>Website Features:</p>
         <ul>
@@ -156,7 +179,7 @@
         </ul>
     </section>
     
-    <section id="results">
+    <section id="results" class="container my-5">
         <h2>Results</h2>
         <p>Outcomes:</p>
         <ul>
@@ -167,21 +190,25 @@
         </ul>
     </section>
     
-    <section id="conclusion">
+    <section id="conclusion" class="container my-5">
         <h2>Conclusion</h2>
         <p>Recap the project and its impact on Compassionate Service Society.</p>
     </section>
     
-    <section id="testimonials">
+    <section id="testimonials" class="container my-5">
         <h2>Testimonials</h2>
         <p>Include quotes or testimonials from the client highlighting their satisfaction with the redesign.</p>
     </section>
     
-    <section id="visuals">
+    <section id="visuals" class="container my-5">
         <h2>Visuals</h2>
         <p>Before and After:</p>
-        <img src="before.jpg" alt="Before Redesign">
-        <img src="after.jpg" alt="After Redesign">
+        <img src="before.jpg" class="img-fluid" alt="Before Redesign">
+        <img src="after.jpg" class="img-fluid" alt="After Redesign">
     </section>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
